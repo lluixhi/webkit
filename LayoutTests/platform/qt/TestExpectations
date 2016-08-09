@@ -516,8 +516,6 @@ fast/layers/no-clipping-overflow-hidden-added-after-transform.html [ ImageOnlyFa
 
 http/tests/loading/multiple-prioritization.html [ Failure Missing Pass ]
 
-[ Debug ] http/tests/media/video-useragent.html [ Timeout Pass ]
-
 http/tests/media/video-useragent.html [ Timeout Pass ]
   http/tests/media/video-buffered-range-contains-currentTime.html [ Timeout Missing ]
   http/tests/navigation/ping-attribute/anchor-cross-origin-from-https.html [ Timeout Pass ]
