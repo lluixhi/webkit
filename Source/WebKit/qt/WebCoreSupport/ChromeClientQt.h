@@ -119,8 +119,8 @@ public:
     void invalidateContentsAndRootView(const IntRect&) override;
     void invalidateContentsForSlowScroll(const IntRect&) override;
     void scroll(const IntSize& scrollDelta, const IntRect& rectToScroll, const IntRect& clipRect) override;
-#if USE(TILED_BACKING_STORE)
-    virtual void delegatedScrollRequested(const IntPoint& scrollPoint);
+#if USE(COORDINATED_GRAPHICS)
+    void delegatedScrollRequested(const IntPoint& scrollPoint) override;
 #endif
 
     IntPoint screenToRootView(const IntPoint&) const override;
