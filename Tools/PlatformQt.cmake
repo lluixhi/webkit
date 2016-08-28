@@ -4,3 +4,7 @@ if (ENABLE_TEST_SUPPORT)
     #    add_subdirectory(TestWebKitAPI)
     add_subdirectory(QtTestBrowser)
 endif ()
+
+if (ENABLE_WEBKIT2)
+    add_subdirectory(WebKitTestRunner)
+endif ()
