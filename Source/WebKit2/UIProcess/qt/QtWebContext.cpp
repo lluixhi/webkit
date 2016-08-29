@@ -207,4 +207,3 @@ QString QtWebContext::preparedStoragePath(StorageType type)
 }
 
 } // namespace WebKit
-

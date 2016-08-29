@@ -43,4 +43,3 @@ void WebContextMenuProxyQt::show()
 #include "moc_WebContextMenuProxyQt.cpp"
 
 } // namespace WebKit
-
