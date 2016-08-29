@@ -62,12 +62,12 @@ public:
 
 #else
 
-    StateFlags changedStates() Q_DECL_OVERRIDE
+    StateFlags changedStates() override
     {
         return StateFlags(StencilState) | ColorState | BlendState;
     }
 
-    void render(const RenderState& state) Q_DECL_OVERRIDE
+    void render(const RenderState& state) override
     {
         renderInternal(state.projectionMatrix);
     }
